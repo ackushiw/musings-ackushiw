@@ -10,9 +10,9 @@ copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
     highlight="Assign a syntax highlight style"
 
 [author]
-    name = "Steve Francia"
-    github = "spf13"
+    name = "Alexander Kushi-Willis"
+    github = "ackushiw"
     linkedin = "YOUR LINKEDIN ID"
-    facebook = "YOUR FB ID"
+    facebook = "ackushiw"
     gaID = "YOUR Google Analytics Tracking ID"
-    twitter = "YOUR TWITTER ID"
+    twitter = "ackushiw"
