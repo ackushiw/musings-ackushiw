@@ -1,10 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "No Fancy Theme"
+title = "Musings"
 theme = "nofancy"
 
 #if not set copyright, default copyright template will be applied
-copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
+copyright = "Copyright (c) 2008 - 2014, Alexander Kushi-Willis; all rights reserved."
 
 [params]
     highlight="Assign a syntax highlight style"
@@ -12,7 +12,7 @@ copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
 [author]
     name = "Alexander Kushi-Willis"
     github = "ackushiw"
-    linkedin = "YOUR LINKEDIN ID"
+    linkedin = "alexander-kushi-willis-6a620527"
     facebook = "ackushiw"
-    gaID = "YOUR Google Analytics Tracking ID"
+    gaID = "UA-25355223-4"
     twitter = "ackushiw"
