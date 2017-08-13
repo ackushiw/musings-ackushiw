@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/ackushiw/musings-ackushiw.git # Gulp will replace this with your GitHub repository
+  repo: ackushiw/musings-ackushiw # Gulp will replace this with your GitHub repository
   branch: master # Branch to update (master by default)
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
