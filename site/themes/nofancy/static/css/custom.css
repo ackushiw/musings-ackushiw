@@ -21,16 +21,23 @@ main {
 	min-height: calc(100vh - 108px)
 }
 .blurb {
+   margin-top: 16px;
+   max-height: calc(3 * 1rem + 8px);       /* fallback */
+   height: calc(3 * 1rem + 8px);
+   overflow: hidden;
+}
+.blurb p {
 	overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
    -webkit-box-orient: vertical;
    -webkit-line-clamp: 3; /* number of lines to show */
    line-height: 1rem;        /* fallback */
-   max-height: calc(3 * 1rem + 16px);       /* fallback */
-   height: calc(3 * 1rem + 16px);
-   margin-top: 16px;
+   max-height: calc(3 * 1rem + 8px);       /* fallback */
+   height: calc(3 * 1rem + 8px);
 }
+
+
 
 .card {
   background: #fff;
