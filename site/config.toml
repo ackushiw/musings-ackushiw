@@ -9,7 +9,7 @@ theme = "nofancy"
     description = "Random musings about random things"
 
 [author]
-    copyright = "Copyright (c) 2008 - 2014, Alexander Kushi-Willis; all rights reserved."
+    copyright = "Copyright (c) 2008 - 2017, Alexander Kushi-Willis; all rights reserved."
     name = "Alexander Kushi-Willis"
     website = "ackushiw.com"
     github = "ackushiw"
