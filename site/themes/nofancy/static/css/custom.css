@@ -27,8 +27,8 @@ main {
    -webkit-box-orient: vertical;
    -webkit-line-clamp: 3; /* number of lines to show */
    line-height: 1rem;        /* fallback */
-   max-height: calc(3 * 1rem);       /* fallback */
-   height: calc(3 * 1rem);
+   max-height: calc(3 * 1rem + 16px);       /* fallback */
+   height: calc(3 * 1rem + 16px);
    margin-top: 16px;
 }
 
@@ -230,6 +230,10 @@ main {
 
 .post h6 {
 	font-size:18px;
+}
+
+.post p {
+	margin-bottom: 8px;
 }
 
 .post-title{
