@@ -4,7 +4,7 @@
   <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
-  <meta name="description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ if eq $isHomePage true }}{{ .Site.Params.description }}{{ end }}{{ if eq $isHomePage false }}{{ .Content }}{{ end }}"> 
+  <meta name="description" content="{{ $isHomePage := eq .Title .Site.Title }}{{ if eq $isHomePage true }}{{ .Site.Params.description }}{{ end }}{{ if eq $isHomePage false }}{{ with .Content }}{{ . }}{{end}}{{ end }}"> 
   {{ with .Site.Params.title }}
     <meta property="og:site_name" content="{{ . }}" />
   {{ end }}
