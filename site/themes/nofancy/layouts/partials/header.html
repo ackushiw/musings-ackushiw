@@ -4,11 +4,14 @@
   <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
-  {{ if isset .Content }}
+  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
+  <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Site.Params.description }}{{ if eq $isHomePage false }} - {{ .Content }}{{ end }}" property="og:description">
+  <!-- {{ if .Content }}
     <meta name="description" content="{{ .Content }}">
-  {{ else with }}
+  {{ else }}
     <meta name="description" content="{{ .Site.Params.description }}">
-  {{ end }}
+  {{ end }} -->
+  
   <meta name="author" content="{{ .Site.Author.name }}">
 
   <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
