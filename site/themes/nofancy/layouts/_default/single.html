@@ -8,11 +8,11 @@
 
             <div class="post-title">
                 <div class="row center">
-                    <p class="footnote"></p>
-                    <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u= {{ - .Permalink  - }} %2F&amp;src=sdkpreparse">Share</a></div>
+                    <p class="footnote"><time class="">{{ .Date.Format "2th January 2006" }}</time></p>
+                    
                 </div>
                 <p class="footnote">
-                    <time class="">{{ .Date.Format "2th January 2006" }}</time>
+                    Reading time: {{ .ReadingTime }} min
 		            {{ $baseurl := .Site.BaseURL }}
                     {{ if or .Params.tags .Params.categories .Params.series }}
                     |
@@ -35,6 +35,9 @@
 
             <div class="post-content writing">
                 {{ .Content }}
+            </div>
+            <div class="row center">
+                <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}%2F&amp;src=sdkpreparse">Share</a></div>
             </div>
         </div>
 	</div>
