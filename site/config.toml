@@ -1,14 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Musings"
-content = "Random musings about random things"
 theme = "nofancy"
-
-#if not set copyright, default copyright template will be applied
-copyright = "Copyright (c) 2008 - 2014, Alexander Kushi-Willis; all rights reserved."
 
 [params]
     highlight="Assign a syntax highlight style"
+    description = "Random musings about random things"
 
 [author]
     copyright = "Copyright (c) 2008 - 2014, Alexander Kushi-Willis; all rights reserved."
