@@ -4,6 +4,7 @@ title = "Musings"
 theme = "nofancy"
 
 [params]
+    images = ["https://musings.ackushiw/images/ackushiw.jpg"]
     highlight="Assign a syntax highlight style"
     description = "Random musings about random things"
 
