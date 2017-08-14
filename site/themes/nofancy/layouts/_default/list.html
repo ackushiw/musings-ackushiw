@@ -3,8 +3,8 @@
 
 
 <div class="pure-g">
-    <div class="pure-u-1-24 pure-u-md-5-24"></div>
-	<div class="pure-u-11-12 pure-u-md-5-8">
+  <div class="desktop pure-u-1-24"></div>
+	<div class="pure-u-23-24 pure-u-md-5-6">
 	  <p class="posts-name">{{ .Title }}:</p>
 
 	  <ul class="posts">
@@ -12,11 +12,15 @@
 		{{ range $name, $page := .Data.Pages }}
 		{{ if eq .Type "post" }}
 		<li>
-		  <a href="{{ .Permalink }}">{{ $page.Title }}</a>
-
+			<a href="{{ .Permalink }}">{{ $page.Title }}</a>
+				<p class="footnote">
+			<time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}" class="post-list timeago">{{ $page.Date.Format "2th January 2006" }}</time>
+			</p>
+			<div class="blurb">
+				{{ $page.Content }}
+			</div>
 		  <p class="footnote">
-			created <time datetime="{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}" class="post-list timeago">{{ $page.Date.Format "2006-01-02T15:04:05Z07:00" }}</time>
-
+		
 			{{ if or $page.Params.tags $page.Params.categories $page.Params.series }}
 			to
 			{{ end }}
@@ -39,7 +43,7 @@
 		{{ end }}
 	  </ul>
 	</div>
-    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+   <div class="desktop pure-u-1-24"></div>
 </div>
 
-{{ partial "footer.html" . }}
+
