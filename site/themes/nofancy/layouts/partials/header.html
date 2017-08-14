@@ -7,7 +7,7 @@
   {{ if .Content }}
     <meta name="description" content="{{ .Content }}">
   {{else}}
-    <meta name="description" content="{{ $.Site.Params.description }}">
+    <meta name="description" content="{{ .Site.Params.description }}">
   {{ end }}
   <meta name="author" content="{{ .Site.Author.name }}">
 
