@@ -10,7 +10,7 @@
   {{ end }}
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}" property="og:title">
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ if eq $isHomePage true }}{{ .Site.Params.description }}{{ end }}{{ if eq $isHomePage false }}{{ .Content }}{{ end }}" property="og:description">
-  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}{{ .Permalink }}" />
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
   <meta property="article:published_time" content="{{ .Date }}" />
   <meta name="author" content="{{ .Site.Author.name }}">
