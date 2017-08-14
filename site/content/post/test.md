@@ -1,6 +1,8 @@
 ---
 title: test
-date: 2017-08-01T17:47:24+01:00
+centerText: true
+date: 2017-08-01T16:47:24.000Z
 ---
 test tset
 
+this is a longer line of text
