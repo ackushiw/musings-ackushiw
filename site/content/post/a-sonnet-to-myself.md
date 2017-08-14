@@ -1,6 +1,7 @@
 ---
 title: A Sonnet To Myself
-date: 2017-08-13T20:15:41.257Z
+centerText: true
+date: 2012-04-22T21:15:41+01:00
 ---
 Forbidden love where canst thou go this hour?
 
@@ -29,3 +30,4 @@ Forlorn among the weeds and there expires.
 My rash forbidden love may blinded be,
 
 But I myself determined am to see.
+
