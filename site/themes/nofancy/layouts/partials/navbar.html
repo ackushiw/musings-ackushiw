@@ -30,9 +30,10 @@
 <div class="header pure-g">
      <div class="desktop pure-u-1-24"></div> 
     <div class="pure-u-1 pure-u-lg-5-6">
-        <div class="pure-menu pure-menu-horizontal nav-menu">
+        <div class="pure-menu pure-menu-horizontal nav-menu row center">
             {{ $baseurl := .Site.BaseURL }}
             <a href="{{$baseurl}}" class="site-title pure-menu-heading">{{ .Site.Title }}</a>
+            <span class="flex"></span>
             <div class="desktop">
             <ul class="pure-menu-list">
                 {{ range $name,$page := .Site.Taxonomies.categories }}
