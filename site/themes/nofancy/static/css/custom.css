@@ -36,6 +36,13 @@ main {
    max-height: calc(3 * 1.2rem);
 }
 
+.list-blurb {
+	text-align: left;
+	height: 1.2rem;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+
 
 
 .card {
@@ -171,11 +178,7 @@ main {
 	padding-left: 0;
 }
 
-#gototop-btn {
-	display: inline-block;
-	color: #bbb;
-	font-size: 80%;
-}
+
 
 #foot-name {
 	text-transform: none;
