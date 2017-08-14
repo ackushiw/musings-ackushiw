@@ -1,8 +1,8 @@
 ---
 title: The Archer
-date: 2013-04-30T00:35:01+01:00
+date: 2013-04-29T23:35:01.000Z
 ---
-**The arrow flies fast**
+The arrow flies fast
 
 But never straight
 
