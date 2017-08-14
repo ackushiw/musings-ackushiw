@@ -4,9 +4,9 @@
   <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
-  {{ if .Content }}
+  {{ if isset .Content }}
     <meta name="description" content="{{ .Content }}">
-  {{else}}
+  {{ else with }}
     <meta name="description" content="{{ .Site.Params.description }}">
   {{ end }}
   <meta name="author" content="{{ .Site.Author.name }}">
@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="/">
 
-    <link rel="icon" href="images/favicon.ico">
+  <link rel="icon" href="images/favicon.ico">
 
   <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
