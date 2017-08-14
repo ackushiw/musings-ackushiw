@@ -22,8 +22,8 @@ main {
 }
 .blurb {
    margin-top: 16px;
-   max-height: calc(3 * 1rem + 8px);       /* fallback */
-   height: calc(3 * 1rem + 8px);
+   max-height: calc(3 * 1.2rem);       /* fallback */
+   height: calc(3 * 1.2rem);
    overflow: hidden;
 }
 .blurb p {
@@ -32,9 +32,8 @@ main {
    display: -webkit-box;
    -webkit-box-orient: vertical;
    -webkit-line-clamp: 3; /* number of lines to show */
-   line-height: 1rem;        /* fallback */
-   max-height: calc(3 * 1rem + 8px);       /* fallback */
-   height: calc(3 * 1rem + 8px);
+   line-height: 1.2rem;        /* fallback */
+   max-height: calc(3 * 1.2rem);
 }
 
 
@@ -239,8 +238,10 @@ main {
 	font-size:18px;
 }
 
-.post p {
-	margin-bottom: 8px;
+.writing p {
+	line-height: 18px;
+	line-height: 1.2rem;
+	margin: 0;
 }
 
 .post-title{
