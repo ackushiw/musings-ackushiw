@@ -8,14 +8,13 @@
 
             <div class="post-title">
                 <div class="row center">
-                    <p class="footnote"><time class="">{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} of {{ .Date.Format "January 2006" }}</time></p>
+                    <p class="footnote"><time class="">{{ .Date.Format "2th January 2006" }}</time></p>
                     
                 </div>
                 <p class="footnote">
                     Reading time: {{ .ReadingTime }} min
 		            {{ $baseurl := .Site.BaseURL }}
                     {{ if or .Params.tags .Params.categories .Params.series }}
-                    |
                     {{ end }}
                     {{ if isset .Params "tags" }}
                     tags:{{ range .Params.tags }}<a href="{{ $baseurl }}tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
