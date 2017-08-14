@@ -1,7 +1,7 @@
 ---
-title: The song of a Swallow
 centerText: true
-date: 2010-11-15T19:07:42+00:00
+title: The Song of a Swallow
+date: 2010-11-15T19:07:42.000Z
 ---
 <center>
 
@@ -42,3 +42,4 @@ With the swirls and soft molding forms of the liquid sky.
 A beautiful blue sky -- cold and clear.
 
 </center>
+
