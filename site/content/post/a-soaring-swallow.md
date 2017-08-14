@@ -11,7 +11,7 @@ And shrouding what was once so clear
 
 Till forms of beauty all but disappear.
 
-<div class="break">
+<div class="break"></div>
 
 I rip ope my soul for all to see
 
@@ -21,7 +21,7 @@ I stumble on in darkness bound
 
 None but echoes do hear my sound.
 
-<div class="break">
+<div class="break"></div>
 
 I call on names to help my plight
 
@@ -31,7 +31,7 @@ It grips me in its cold embrace
 
 Dragging me down to a darker place.
 
-<div class="break">
+<div class="break"></div>
 
 Here I stand naked in despair
 
@@ -41,9 +41,9 @@ So I lament at my own tragedy
 
 Cursing the fool who believed in destiny.
 
-<div class="break">
+<div class="break"></div>
 
-<div class="break">
+<div class="break"></div>
 
 Soaring high above light and free,
 
@@ -53,7 +53,7 @@ What wise words I do not know,
 
 But with his fair song my heart does flow.
 
-<div class="break">
+<div class="break"></div>
 
 Here below on the ground I stand,
 
@@ -62,4 +62,5 @@ Gazing up I reach out my hand,
 Above he flies beautifully fast,
 
 My heart skips a beat and is free at last.
+
 
