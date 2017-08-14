@@ -7,6 +7,8 @@ html {
 	min-height:100%;
 	width:100%;
 	position:relative;
+	--brand-font: "Courier New", monospace;
+	--default-font: verdana,arial,helvetica,sans-serif;
 }
 
 body {
@@ -75,13 +77,13 @@ body {
 .header ul li a {
 	font-weight: bold;
 	color: #484848;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--brand-font);
 }
 
 .header .site-title {
 	font-weight: bold;
 	color: #484848;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--brand-font);
 }
 
 .pull-right {
@@ -93,11 +95,11 @@ body {
 	font-weight: bold;
 	padding-left: 1em;
 	margin-top: 1em;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--brand-font);
 }
 
 .posts {
-	font-family: verdana,arial,helvetica,sans-serif;
+	font-family: var(--default-font);
 	list-style-type:none;
 	padding-left: 1em;
 }
@@ -111,13 +113,15 @@ body {
 }
 
 .posts li a {
+	font-family: var(--brand-font);
+	font-weight: bold;
 	color:#369;
 	text-decoration:none;
 }
 
 
 .footnote {
-	font-family: verdana,arial,helvetica,sans-serif;
+	font-family: var(--default-font);
 	color:#888;
 	font-size:x-small;
 	margin-bottom:0;
