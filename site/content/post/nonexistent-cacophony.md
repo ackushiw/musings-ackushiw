@@ -41,4 +41,4 @@ Order emerges from chaotic ramblings and sink back again in to a sea of purple s
 <div class=”break”></div>
 
 Exhume. I've buried my name amid dust and receipts. Give me no flowers, show me no pain and I'll march on and drink my coffee. My stomach complains about the weather. What idle chit chat. Go digest some beans and fart not you forgetful friend. Sleep is good, but bed is better, I see you're a betting man, but I am a fool so cannot lose. Jack of spades. Pink blossoms in winter, an unusual sight. Prick up your ears, pick up your bow of horn and hide. Amongst trees, of wolf. It is cold in the snow but bare your teeth and wait. Pretensions of patience is all you need now. Silence. Still. Enough.
-<div class=”break”></div>
+
