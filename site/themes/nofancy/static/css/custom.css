@@ -249,7 +249,7 @@ main {
 
 .writing .break {
 	display: block;
-	height: 8px !important;
+	height: 8px;
 	height: 1rem;
 	width: 100%;
 }
