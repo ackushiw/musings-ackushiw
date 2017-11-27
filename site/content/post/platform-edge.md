@@ -1,9 +1,9 @@
 ---
 title: Platform Edge
-date: 2013-12-16T14:58:09-05:00
+date: 2013-12-16T19:58:09.000Z
 ---
 The stuffy air stirs,
 
-Stand back from the platform edge.
+…stand back from the platform edge.
 
-Anticipation
+Anticipation.
